@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Readex+Pro:wght@500&display=swap");
+
+body{
+    margin:0;
+    line-height: 1.5;
+    background-color: #D8DDEF;
+}
+
+body,
+input,
+textarea,
+button{
+    font-family: 'Readex Pro', sans-serif;
+    font-weight: 500;
+}
+
+*{
+    box-sizing: border-box;
+    margin:0;
+}
+
+.container{
+    max-width: 1170px;
+    margin:auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.align-items-center{
+    align-items: center;
+}
+
+.justify-content-between{
+    justify-content: space-between;
+}
+
+.header{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+}
+
+.header .brand-name{
+    padding: 0 35px;
+}
+
+.header .brand-name a{
+    text-decoration: none;
+    font-size: 30px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.header .nav{
+    padding: 0 40px;
+}
+
+.header .nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header .nav ul li{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.header .nav ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    padding: 25px 0;
+    display: block;
+    transition: all 0.5s ease;
+}
+
+.header .nav ul li a:hover{
+    color: #ff9800;
+}
+
+.home-section{
+    min-height:100vh;
+    background-color: #D8DDEF;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+
+.home-section:before{
+    content: '';
+    position: absolute;
+    box-sizing: border-box;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.7;
+    z-index: -1;
+}
+
+img{
+    margin: 2px auto;
+    display: block;
+}
+
+/* Gallery section */
+
+div.gallery {
+    margin: 7%;
+    float: left;
+    width: 35%;
+    transition: all 0.5s ease;
+  }
+  
+  div.gallery:hover {
+    color: #1175af;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 10px;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Readex Pro', sans-serif;
+  }
+
+/* Contact form */
+
+input[type=text], select, textarea {
+    width: 40%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
