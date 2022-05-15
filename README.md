@@ -1,11 +1,9 @@
 # Photography-Website
 
-This is the first personal project I've created 😂
+This is the first personal project I've created.
 
 Photography website: 
 
-Feel free to email me for feedback ramkevalchauhan9136@gmail.com
+when I go different places then capter photos and add this website.
 
-Much appreciated 😃
-
-The logo is from google
+Tech Stack- Html and CSS.
